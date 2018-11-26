@@ -106,3 +106,4 @@ branches:
   only:
     - master
     - develop
+    - fix-win-build
