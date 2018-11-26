@@ -1,4 +1,4 @@
-dist: precise
+dist: xenial
 sudo: false
 
 language: c
@@ -35,7 +35,7 @@ matrix:
 
     - os: linux
       sudo: required
-      dist: trusty
+      dist: xenial
       addons:
         apt:
           sources:
@@ -55,7 +55,7 @@ matrix:
 
     - os: linux
       sudo: required
-      dist: trusty
+      dist: xenial
       addons:
         apt:
           sources:
